@@ -65,7 +65,6 @@ public class CheckoutPage {
         priceWithTax = Float.parseFloat(priceWithTaxText.getText().replace("Total: $", ""));
 
         assertEquals(totalPrice + tax, priceWithTax);
-        System.out.println(totalPrice + tax + " " + priceWithTax);
 
     }
 
